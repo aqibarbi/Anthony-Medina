@@ -5,8 +5,7 @@ A practice project. I redesigned an existing UI/UX designer portfolio using plai
 ## Original Project
 
 - **Original portfolio (base version):** https://anthony-medina-portfolio.netlify.app/
-- **Design based on:** [Anthony Medina's portfolio](https://www.linkedin.com/in/anthonyjmedina/)
-- The base version was built by my mentor. I rebuilt and restyled it.
+- My mentor gave me this link as a practice task. I rebuilt and restyled it.
 
 ## Live Demo
 
@@ -69,6 +68,6 @@ This is a practice project, not a real client site. Project names, images and lo
 
 ## Credits
 
-- Original design: Anthony Medina
-- Base version: my mentor
-- Redesign and code changes: **Muhammad Aqib** ([@ajm24027](https://github.com/ajm24027))
+- Original portfolio: Anthony Medina ([LinkedIn](https://www.linkedin.com/in/anthonyjmedina/), [GitHub](https://github.com/ajm24027))
+- Practice task and base link: my mentor
+- Redesign and code changes: **Muhammad Aqib**
