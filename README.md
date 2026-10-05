@@ -4,8 +4,13 @@ A practice project. I redesigned an existing UI/UX designer portfolio using plai
 
 ## Original Project
 
-- **Original portfolio (base version):** https://anthony-medina-portfolio.netlify.app/
-- My mentor gave me this link as a practice task. I rebuilt and restyled it.
+This project has three versions:
+
+1. **Mentor's version (original):** https://anthony-medina-portfolio.netlify.app/
+2. **My first rebuild (test task):** https://flex-anthony-medina.netlify.app/
+3. **My redesign (this repo):** https://portfolio-anthony-medina.netlify.app/
+
+My mentor gave me the first version as a test. I rebuilt it with Flexbox (version 2), then redesigned it (version 3).
 
 ## Live Demo
 
@@ -69,5 +74,5 @@ This is a practice project, not a real client site. Project names, images and lo
 ## Credits
 
 - Original portfolio: Anthony Medina ([LinkedIn](https://www.linkedin.com/in/anthonyjmedina/), [GitHub](https://github.com/ajm24027))
-- Practice task and base link: my mentor
-- Redesign and code changes: **Muhammad Aqib**
+- Base version and test task: my mentor
+- Flexbox rebuild and redesign: **Muhammad Aqib**
