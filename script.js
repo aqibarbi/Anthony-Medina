@@ -61,4 +61,22 @@
       stage.style.setProperty('--py', 0);
     });
   }
+
+  /* 5. Mobile menu: hamburger toggle */
+  const bar = $('.toolbar');
+  const burger = $('.menu-toggle');
+  const setMenu = (open) => {
+    bar.classList.toggle('is-open', open);
+    burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  };
+  burger?.addEventListener('click', () => setMenu(!bar.classList.contains('is-open')));
+  $$('.menu a').forEach((a) => a.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && bar.classList.contains('is-open')) { setMenu(false); burger.focus(); }
+  });
+  document.addEventListener('click', (e) => {
+    if (bar.classList.contains('is-open') && !bar.contains(e.target)) setMenu(false);
+  });
+  matchMedia('(min-width: 48.01rem)').addEventListener('change', (e) => { if (e.matches) setMenu(false); });
 })();
