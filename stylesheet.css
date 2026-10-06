@@ -1,8 +1,5 @@
 /* ==========================================================================
    Anthony Medina, TEST 5 (Flexbox)
-   Content from TEST 5, visual design from portfolio-v2.
-   Layout uses Flexbox only. Tokens, toolbar, selection-frame motif,
-   dark mode and motion come from portfolio-v2.
    ========================================================================== */
 
 @layer reset, tokens, base, layout, components, motion;
@@ -437,7 +434,9 @@
   }
   .cursor {
     --depth: 18;
-    position: absolute; inset: 62cqi auto auto 66cqi; z-index: 5;
+    position: absolute;
+    inset: 62cqi auto auto 72cqi;
+    z-index: 5;
     color: var(--sel);
     pointer-events: none;
     translate: calc(var(--px) * var(--depth) * 1px) calc(var(--py) * var(--depth) * 1px);
@@ -600,8 +599,19 @@
   .contact {
     padding-block: var(--section);
     border-radius: clamp(1.5rem, 4vw, 3rem) clamp(1.5rem, 4vw, 3rem) 0 0;
-    h2 { font-size: clamp(2.2rem, .6rem + 4.2vw, 5rem); overflow-wrap: anywhere; font-weight: 800; font-stretch: 92%; letter-spacing: -.02em; }
-    p { max-inline-size: 36rem; font-size: var(--step-1); color: color-mix(in oklab, var(--canvas) 72%, transparent); }
+
+    h2 {
+      font-size: clamp(2.4rem, 1rem + 5.5vw, 5rem);
+      font-weight: 800;
+      font-stretch: 92%;
+      letter-spacing: -.02em;
+    }
+
+    p {
+      max-inline-size: 36rem;
+      font-size: var(--step-1);
+      color: color-mix(in oklab, var(--canvas) 72%, transparent);
+    }
   }
   .contact__inner {
     display: flex; flex-direction: column; align-items: stretch; gap: clamp(2rem, 5vw, 4rem);
