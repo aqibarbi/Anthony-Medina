@@ -83,5 +83,5 @@ This is a practice project, not a client site. The project names, images and log
 ## Credits
 
 - Design based on Anthony Medina's portfolio ([LinkedIn](https://www.linkedin.com/in/anthonyjmedina/), [GitHub](https://github.com/ajm24027))
-- Base version and test task: my mentor
-- Flexbox rebuild and redesign: **Muhammad Aqib**
+- Base version : my mentor
+- Test task and Flexbox rebuild and redesign: **Muhammad Aqib**
